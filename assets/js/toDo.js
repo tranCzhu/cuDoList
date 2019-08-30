@@ -71,15 +71,6 @@ $(document).ready(function() {
 
 
 });
-// if ($("li").length === 0) {
-//     console.log($("li"));
-//     console.log("yayyyk");
-//     $("input").attr("placeholder", "Congrats!");
-// };
-
-// if (!$("li".hasClass("finished"))) {
-//     console.log("yuck");
-// }
 
 // LESSONS LEARNED:
 // put jQuery codes inside $(document).ready(function() {
