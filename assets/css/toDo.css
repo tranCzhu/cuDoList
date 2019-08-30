@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: #DAE2F8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D6A4A4, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.container {
+    width: 40%;
+    margin: 10% auto;
+    background: #f7cecb;
+    box-shadow: 5px 5px 5px gray;
+    padding-bottom: 1px;
+}
+
+.head {
+    display: inline-block;
+}
+
+h2 {
+    margin: 3% auto;
+    background: white;
+    color: #d9b0ad;
+    padding: 4% 5%;
+    text-transform: uppercase;
+}
+
+input {
+    color: gray;
+    font-size: 1.1rem;
+    padding: 2% 2% 2% 3%;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #ffe7e6 4px;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Red Hat Text', sans-serif;
+    padding: 0% 5%;
+}
+
+li {
+    height: 35px;
+    line-height: 35px;
+    padding-top: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#addBtn {
+    width: 15%;
+    max-width: 36px;
+    min-width: 25px;
+    float: right;
+    padding: 0px 0px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border: dashed #ffe7e6 4px;
+}
+
+.emphasis {
+    border: dashed #ffe7e6 4px;
+}
+
+.removeBtn {
+    width: 23px;
+    margin: 6.3px 5.8px;
+}
+
+.btnContainer {
+    background: white;
+    height: 35px;
+    margin-right: 6px;
+    width: 0;
+    vertical-align: top;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover .btnContainer {
+    width: 35px;
+    opacity: 1.0;
+}
+
+li:hover .like {
+    display: none;
+}
+
+.finished {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.like {
+    display: none;
+    width: 38px;
+}
+
+.text {
+    vertical-align: top;
+}
+
+.disp {
+    display: inline-block;
+}

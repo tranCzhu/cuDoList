@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">    <link rel="stylesheet" href="assets/css/toDo.css">
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <script src="assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/toDo.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="head">
+            <!-- add icon from: https://www.iconfinder.com/icons/315232/add_clipboard_icon, free for commercial use -->
+            <h2>To-Do List<img id="addBtn" src="assets/icon/iconfinder_icon-add-clipboard.svg"></img></h2>
+        </div>
+        <input type="text" id="newTask" placeholder="Add New ToDo" maxlength="58">
+        <ul>
+            <!-- trash icon from: https://www.iconfinder.com/icons/314863/can_trash_icon, free for commercial use -->
+            <!-- like icon from: https://www.iconfinder.com/icons/2315581/heart_like_notification_one_like_icon, Creative Common licensed -->
+            <li><span class="btnContainer"><img class="removeBtn" src="assets/icon/iconfinder_icon-26-trash-can_314863.svg"></span>
+                <span class="text">task 1</span>
+                <img class="like" src="assets/icon/iconfinder_Instagram_UI-14_2315581.svg"></img>
+            </li>
+            <li><span class="btnContainer"><img class="removeBtn" src="assets/icon/iconfinder_icon-26-trash-can_314863.svg"></span>
+                <span class="text">task 2</span>
+                <img class="like" src="assets/icon/iconfinder_Instagram_UI-14_2315581.svg"></img>
+            </li>
+            <li><span class="btnContainer"><img class="removeBtn" src="assets/icon/iconfinder_icon-26-trash-can_314863.svg"></span>
+                <span class="text">task 3</span>
+                <img class="like" src="assets/icon/iconfinder_Instagram_UI-14_2315581.svg"></img>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- LESSONS LEARNED -->
+<!-- image disappears in <li> because it's too huge and squishes all other elements in the <li> away to make them disappear too -->
